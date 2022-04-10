@@ -35,7 +35,7 @@ p{
     */
 /* атрибут класс является глобальным и можно задать для любого элемента 
 созданый класс стилей можно использовать для любого колличества эллементов
-*/
+
 
     .mark_for_paragraph{
         background-color: yellow;
@@ -48,5 +48,27 @@ p{
     font-weight: normal;}
     .mops{
         height: 400px;
-        width: 400;
+        width: 400px;
     }
+    */
+.cardContainer{
+    border: 2px solid blue;
+    /*
+    border-width: 2px;
+    border-color: blue;
+    border-style: solid;
+    */
+    width: 400px;
+    height: 600px;
+}
+.photoContainer{
+    background-image: url(https://cdn.uarizonabootcamp.com/wp-content/uploads/sites/56/2019/06/BlogImage_WebDeveloper1.jpg);
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.infoContainer{
+    border: 1px solid gray;
+}
